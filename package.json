@@ -1,0 +1,16 @@
+{
+  "name": "athemix37-pk14-server",
+  "version": "1.0.0",
+  "description": "Backend Node.js pour ATHEMIX37 PK14 — auth admin, liens /r/<code>, événements temps réel (socket.io), analyseur d'URL",
+  "private": true,
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "socket.io": "^4.7.5"
+  }
+}
